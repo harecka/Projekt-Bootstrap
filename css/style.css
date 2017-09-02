@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: "RobotoSlab", sans-serif;
+   
+}
+
+#main-nav{
+    background-color: transparent;
+    border: 0;
+/*    font-family: "Monserat", sans-serif;*/
+    font-weight: 600;
+}
+
+#main nav ul > li > a {
+    color:#fff;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+
+
+#main-nav .navbar-brand {
+    font-family: "Droid Serif", serif;
+    font-style: italic;
+    color: #fff;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+#main-nav ul > li > a:hover,
+#main-nav .navbar-brand:hover{
+    color:aqua;
+}
+/*header*/
+#main-header{
+/*    100%wysokosci okna urzadzenia*/
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    font-family: "Montserrat" sans-serif;
+}
+
+
+
+#main-header .header-inner {
+    position: absolute;
+    width: 100%;
+     transform: translateY(-50%);
+    top: 50%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    
+}
+#main-header .header-inner button
+text-transform: uppercase;
+font-weight: bold;
+transition: all 0.4s;
+
+#main-header .header-inner h3
+font-family: "RobotoSlab";
+font-style: italic;
+font-size: 36px;
+margin-top: 0;
+
+
+
+#main-header .header-inner h1
+text-transform: uppercase;
+font-weight: bold;
+
+
+#main-header .header-inner button:hover{
+    background-color: #fff;
+    color:#5bc0de;
+}
+
+
